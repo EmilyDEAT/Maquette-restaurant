@@ -1,0 +1,13 @@
+EXERCICES
+
+Mon client est un restaurant qui utilise des produits frais et naturels
+
+Il veut un site qui réponde à ses valeurs :
+- simplicité
+- belle présentation
+- healthy
+- partage
+
+
+Voici le site où a été trouvé le template :
+https://colorlib.com/wp/one-page-psd-web-templates/

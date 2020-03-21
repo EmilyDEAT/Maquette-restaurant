@@ -1,0 +1,277 @@
+h1 {
+  font-family: 'Yeseva One', cursive;
+}
+h2 {
+  font-family: 'Yeseva One', cursive;
+}
+p {
+  font-family: 'Lato', sans-serif;
+    font-size: 16px;
+}
+
+
+/* Header */
+#header_backgroud {
+  background-image: url(./images/Bg.png);
+  background-size: cover;
+    background-position: center;
+}
+header {
+  background-image: url(./images/bg_header.png);
+  background-size: cover;
+}
+ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  margin-top: 40px;
+}
+header a {
+  font-family: 'Gentium Book Basic', serif;
+  color: white;
+}
+
+
+/* Section 1 */
+#promo {
+    height: 640px;
+    display: flex;
+}
+#promo .container {
+    margin: auto;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#promo h1 {
+  color: white;
+  font-size: 90px;
+  text-align: center;
+}
+#promo img {
+  margin-left: auto;
+  margin-right: auto;
+}
+#book {
+  border: 1px solid black;
+  color: white;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+    height: 54px;
+    width: 228px;
+}
+#book p {
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+#see_menu {
+  border: 1px solid white;
+  color: white;
+  text-align: center;
+  background-color: rgba(200, 200, 200, 0.5);
+    height: 54px;
+    width: 228px;
+}
+#see_menu p {
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+
+/* Section 2 */
+#about {
+  background-image: url(./images/bg_section2.png);
+  background-size: cover;
+  background-position: center;
+    height: 710px;
+    display: flex
+}
+#about .container {
+    margin: auto;
+    text-align: center;
+}
+#dish img {
+    max-width: 100%;
+}
+#about h1 {
+    color: #cc9900;
+    font-size: 36px;
+}
+#cook {
+    margin-left: 80px;
+}
+#about p {
+        margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+/* Section 3 */
+#ingredients {
+  background-image: url(./images/bg_section3.png);
+  background-size: cover;
+  background-position: center;
+  height: 758px;
+  display: flex
+}
+#ingredients .container {
+    margin: auto;
+    text-align: center;
+}
+#ingredients h1 {
+    color: white;
+    font-size: 36px;
+}
+#ingredients p {
+    color: white;
+    margin-bottom: 68px;
+}
+#bloc_ingre {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 557px;
+    display: flex;
+}
+#fine_ingre {
+    margin: auto;
+}
+#fine_ingre img {
+    margin: 15px;
+}
+
+/* Section 4 */
+#menu {
+  background-image: url(./images/bg_section4.png);
+  background-size: cover;
+  background-position: center;
+    height: 994px;
+      display: flex
+}
+#menu .container{
+    margin: auto;
+    text-align: center;
+}
+#menu h1 {
+    color: #cc9900;
+    font-size: 36px;
+}
+#menu h2 {
+    color: #cc9900;
+    font-size: 21px;
+    text-align: left;
+}
+#menu h2 {
+    color: #cc9900;
+    font-size: 21px;
+    text-align: left;
+}
+#menu p {
+  text-align: left;
+  margin-bottom: 30px;
+}
+#menu hr {
+  border: 0.5px #cc9900 solid;
+  margin-top: 0px;
+}
+#menu img {
+  margin-bottom: 25px;
+}
+
+/* Section 5 */
+#reviews {
+  background-image: url(./images/bg_section5.png);
+  background-size: cover;
+  background-position: center;
+    height: 758px;
+      display: flex
+}
+#reviews .container {
+  margin: auto;
+  text-align: center;
+}
+#bloc_guest {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 557px;
+  display: flex;
+}
+#guest {
+  margin: auto;
+}
+#reviews h1 {
+  color: white;
+  font-size: 36px;
+}
+#reviews p {
+  color: white;
+}
+#citation {
+  font-family: 'Gentium Book Basic', serif;
+  font-size: 25px;
+}
+#guest img {
+  margin: 15px;
+}
+
+/* Section 6 */
+#reservation {
+  background-image: url(./images/bg_section2.png);
+  background-size: cover;
+  background-position: center;
+    height: 710px;
+    display: flex
+}
+#reservation .container {
+    margin: auto;
+    text-align: center;
+}
+#reservation h1 {
+  color: #cc9900;
+  font-size: 36px;
+}
+#reservation img {
+  max-width: 100%;
+}
+label {
+  color: #cc9900;
+  font-size: 16px;
+}
+.button {
+  background-color: #cc9900;
+  width: 200px;
+  height: 35px;
+  margin: auto;
+  margin-top: 30px;
+  position: relative;
+}
+.button p {
+  color: white;
+  position: relative;
+  top: 4px;
+}
+#reservation .col-md-6 {
+  display: flex;
+  flex-direction: column;
+}
+input{
+  margin-bottom: 15px;
+}
+
+/* Footer*/
+footer {
+  background-color: #191919;
+  height: 320px;
+  display: flex;
+}
+footer h1 {
+  color: white;
+  font-size: 21px;
+}
+footer p {
+  color: white;
+  font-size: 16px;
+}
+footer .container {
+  text-align: center;
+  margin: auto;
+}
+footer img {
+  margin: 15px;
+}
