@@ -9,9 +9,8 @@ Il veut un site qui réponde à ses valeurs :
 - healthy
 - partage
 
-
-Image de la maquette: 
-![maquette](./Capture_exercice.png)
-
 # Demo
-Vous pouvez trouver la demo [ici](https://emilydeat.github.io/Maquette-restaurant/)
+Vous pouvez trouver la demo [ici](https://emilydeat.github.io/Maquette-restaurant/index.html)
+
+# Image de la maquette
+![maquette](./Capture_exercice.png)
